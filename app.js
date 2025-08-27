@@ -11,11 +11,15 @@ let numeroLista = 0;
 */
 
 function agregarAmigo(){
-
+    let elementoLista = document.createElement("li");
+    let listaHTML = document.getElementById("listaAmigos");
     entrada = document.getElementById('amigo').value;
     if(validarEntrada(entrada)){
         listaDeAmigos.push(entrada);
+        elementoLista.textContent = entrada; // Establece el texto del elemento
+        listaHTML.appendChild(elementoLista); // Agrega el elemento a la lista en el HTML
         document.getElementById('amigo').value='';
+        document.getElementById('resultado').innerHTML='';
         //console.log(listaDeAmigos);
         
     }else {
@@ -32,20 +36,15 @@ function validarEntrada(entrada){
     return entrada!="";
     
 }
-/*Funcion visualizarLista(lista) que permite visualizar la lista de nombres de amigos agregados
-
-*/
-function visualizarLista(lista){
-    let elementoHTML = document.getElementById('listaAmigos');
-    elementoHTML.innerHTML = lista;
-    return;
-}
 
 function sortearAmigo(){
+
     if(listaDeAmigos.length>0){
         let numeroLista =  Math.floor(Math.random()*listaDeAmigos.length);
         let elementoHTML = document.getElementById('resultado');
         elementoHTML.innerHTML = listaDeAmigos[numeroLista];
+        document.getElementById('listaAmigos').innerHTML = '';
+        listaDeAmigos =[];
 
     }else{
         alert('Ingresa por lo menos un amigo');
@@ -53,3 +52,5 @@ function sortearAmigo(){
     
     
 }
+
+
