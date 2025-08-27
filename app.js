@@ -2,9 +2,6 @@
 let entrada = "";
 let listaDeAmigos = [];
 let entradaValida = false;
-let numeroLista = 0;
-
-
 
 /*Funcion agregarAmigo() que agregar el valor ingresando en la caja de input text si el valor es válido
 
