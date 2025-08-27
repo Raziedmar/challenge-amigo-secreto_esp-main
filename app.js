@@ -1,13 +1,13 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
 let entrada = "";
 let listaDeAmigos = [];
-let entradaValida = false;
 
 /*Funcion agregarAmigo() que agregar el valor ingresando en la caja de input text si el valor es válido
 
 */
 
 function agregarAmigo(){
+    document.getElementById("sortear").innerHTML = '<img src="assets/play_circle_outline.png" alt="Ícono para sortear"> Sortear amigo';
     let elementoLista = document.createElement("li");
     let listaHTML = document.getElementById("listaAmigos");
     entrada = document.getElementById('amigo').value;
@@ -21,8 +21,7 @@ function agregarAmigo(){
         
     }else {
         alert("Ingresa nombre válido");
-    }
-    visualizarLista(listaDeAmigos);    
+    } 
 }
 
 /*Funcion validarEntrada(elemento) que valida la entrada de datos en la caja de input texto retornando 'false' si la entrada tiene valor vacío
@@ -40,6 +39,7 @@ function sortearAmigo(){
         let numeroLista =  Math.floor(Math.random()*listaDeAmigos.length);
         let elementoHTML = document.getElementById('resultado');
         elementoHTML.innerHTML = listaDeAmigos[numeroLista];
+        document.getElementById("sortear").innerHTML = '<img src="assets/play_circle_outline.png" alt="Ícono para sortear"> Sorteado';
         document.getElementById('listaAmigos').innerHTML = '';
         listaDeAmigos =[];
 
