@@ -3,6 +3,10 @@ let entrada = "";
 let listaDeAmigos = [];
 let entradaValida = false;
 
+/*Funcion agregarAmigo() que agregar el valor ingresando en la caja de input text si el valor es válido
+
+*/
+
 function agregarAmigo(){
 
     entrada = document.getElementById('amigo').value;
@@ -14,6 +18,9 @@ function agregarAmigo(){
     }    
 }
 
+/*Funcion validarEntrada(elemento) que valida la entrada de datos en la caja de input texto retornando 'false' si la entrada tiene valor vacío
+
+*/
 function validarEntrada(entrada){
     
     if(entrada ==""){
