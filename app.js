@@ -45,9 +45,14 @@ function visualizarLista(lista){
 }
 
 function sortearAmigo(){
+    if(listaDeAmigos.length>0){
+        let numeroLista =  Math.floor(Math.random()*listaDeAmigos.length);
+        let elementoHTML = document.getElementById('resultado');
+        elementoHTML.innerHTML = listaDeAmigos[numeroLista];
+
+    }else{
+        alert('Ingresa por lo menos un amigo');
+    }
     
-    let numeroLista =  Math.floor(Math.random()*listaDeAmigos.length);
-    let elementoHTML = document.getElementById('resultado');
-    elementoHTML.innerHTML = listaDeAmigos[numeroLista];
     
 }
