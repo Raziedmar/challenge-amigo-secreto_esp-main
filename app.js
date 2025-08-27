@@ -29,11 +29,8 @@ function agregarAmigo(){
 */
 function validarEntrada(entrada){
     
-    if(entrada ==""){
-        return false;
-    }else {
-        return true;
-    }
+    return entrada!="";
+    
 }
 /*Funcion visualizarLista(lista) que permite visualizar la lista de nombres de amigos agregados
 
