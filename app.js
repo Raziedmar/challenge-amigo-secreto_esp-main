@@ -13,6 +13,7 @@ function agregarAmigo(){
     if(validarEntrada(entrada)){
         listaDeAmigos.push(entrada);
         console.log(listaDeAmigos);
+        visualizarLista(listaDeAmigos);
     }else {
         alert("Ingresa nombre válido");
     }    
@@ -28,4 +29,16 @@ function validarEntrada(entrada){
     }else {
         return true;
     }
+}
+/*Funcion visualizarLista(lista) que permite visualizar la lista de nombres de amigos agregados
+
+*/
+function visualizarLista(lista){
+    let elementoHTML = document.getElementById('listaAmigos');
+    elementoHTML.innerHTML = lista;
+    return;
+}
+
+function sortearAleatorio(){
+
 }
