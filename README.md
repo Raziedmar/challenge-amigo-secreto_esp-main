@@ -25,12 +25,12 @@
 
 
 \## 🛠️ Tecnologías Utilizadas
-- `**Javascript**
-- `**HTML**
-- `**Git y Github**
+- **Javascript**
+- **HTML**
+- **Git y Github**
 
 \## 📁 Autor
-- `**Raziedmar**
+- **Raziedmar**
 
 
 
