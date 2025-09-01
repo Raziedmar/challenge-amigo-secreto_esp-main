@@ -24,3 +24,13 @@
 - `Reinicio`: Finalmente luego de sortear un amigo secreto se puede reiniciar el juego ingresando nuevamente otra lista de amigos.
 
 
+\## 🛠️ Tecnologías Utilizadas
+- `**Javascript**
+- `**HTML**
+- `**Git y Github**
+
+\## 📁 Autor
+- `**Raziedmar**
+
+
+
