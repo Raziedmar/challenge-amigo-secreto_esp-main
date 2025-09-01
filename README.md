@@ -11,7 +11,7 @@
     
 - `Validar entrada`: Si el campo de texto está vacío, se mostrará una alerta pidiendo un nombre válido.
   
-    <img width="1920" height="1080" alt="image" src="img/Paso2.jpg" />
+   <img width="1920" height="1080" alt="image" src="img/Paso2.jpg" />
     
 - `Visualizar la lista`: Los nombres ingresados aparecerán en una lista debajo del campo de entrada.
 - `Sorteo aleatorio`: Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.
