@@ -21,4 +21,6 @@
 
    <img width="1920" height="1080" alt="image" src="img/Paso4.jpg" />
 
+- `Reinicio`: Finalmente luego de sortear un amigo secreto se puede reiniciar el juego ingresando nuevamente otra lista de amigos.
+
 
