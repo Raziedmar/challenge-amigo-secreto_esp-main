@@ -19,4 +19,6 @@
   
 - `Sorteo aleatorio`: Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.
 
+   <img width="1920" height="1080" alt="image" src="img/Paso4.jpg" />
+
 
